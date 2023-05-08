@@ -1,0 +1,13 @@
+// Bumblebee
+@PART[bb_RTG]:FOR[NearFutureElectrical]
+{
+	@cost *= 0.5
+	!MODULE[ModuleGenerator] {}
+    MODULE
+	{
+		name = ModuleRadioisotopeGenerator
+		BasePower = 0.6
+		HalfLife = 8.35
+		EasyMode = true
+	}
+}
